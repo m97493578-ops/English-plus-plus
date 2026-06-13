@@ -1,0 +1,5 @@
+# English++ Core System Library Module
+platform = "Windows_NT"
+user = "%USERNAME%"
+computer = "%COMPUTERNAME%"
+version = "1.0.0"
