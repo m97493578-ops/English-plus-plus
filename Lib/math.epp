@@ -1,0 +1,18 @@
+# English++ Core Math Library Module
+
+pi = 3.14
+tau = 6.28
+gravity = 9.81
+
+# Default test value
+x = 0.1
+
+if x == 0
+return_val = x
+endif
+
+if x != 0
+square = x * x
+half_square = square / 2
+return_val = x - half_square
+endif
