@@ -9,8 +9,6 @@ Built entirely to minimize local computer dependency structures, English++ runs 
 ## 🛠️ Key Features
 * **Zero Host Dependencies**: Fully portable runtime infrastructure—drop it on a USB flash drive and run your scripts anywhere.
 * **Simplified Variables & Decimals**: Native support for integer states and multi-tier floating-point arithmetic.
-* **Dynamic Scopes**: Robust conditional parsing using native `if`, `else`, and `endif` logic paths.
-* **Standard Library Mounting**: Modular architecture that loads package configurations from local library paths automatically.
 
 ---
 
@@ -65,5 +63,7 @@ We are actively building out the initial release of the language runtime. If you
 1. **The EPP Package Manager**: Implementing an automated tool (`epm.bat`) to fetch, compile, and place packages directly into the `Lib/site-packages/` path.
 2. **Loop Iterators**: Injecting support for continuous processing routines (like `while` loop conditions).
 3. **String Concatenation**: Designing a clean character binding syntax to link text variables together natively.
+4. **Dynamic Scopes**: Robust conditional parsing using native `if`, `else`, and `endif` logic paths.
+5. **Standard Library Mounting**: Modular architecture that loads package configurations from local library paths automatically.
 
 Check out our **GitHub Issues** tab to grab a task and help make English++ the ultimate portable alternative!
