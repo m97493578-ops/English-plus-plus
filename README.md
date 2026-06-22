@@ -16,8 +16,8 @@ Built entirely to minimize local computer dependency structures, English++ runs 
 To maximize workspace organization, English++ maintains a pristine root workspace directory by containing all core modules, packages, and environment assets completely inside isolated system directories:
 
 ```text
-📁 PocketSuite-Hub/
- ├── 📄 English++.bat        # The Core Language Compiler/Interpreter Engine
+📄 English++.bat        # The Core Language Compiler/Interpreter Engine
+📄 epm.bat              # Our Package Manager
  └── 📁 Lib/                 # The Standard Library Directory
       ├── 📄 math.epp        # Core Floating-Point Math Constants
       ├── 📄 sys.epp         # Live Machine Environment & Profile Variables
